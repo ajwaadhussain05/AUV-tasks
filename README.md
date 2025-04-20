@@ -15,6 +15,11 @@ I am particularly interested in:
 ## Projects
 While I have not yet completed any notable projects, I am always eager to take on new challenges and work on projects that allow me to apply my knowledge and skills. I believe that hands-on experience is crucial for learning, and I am actively seeking opportunities to collaborate on exciting projects in the AI/ML domain.
 
+## Challenges Faced
+During my journey, I encountered some challenges that impacted my progress:
+- **Downloading Ubuntu and ROS**: I faced significant difficulties in downloading and setting up Ubuntu and ROS 1, which was time-consuming and delayed my work. This experience taught me the importance of patience and perseverance when dealing with technical issues.
+- **Time Management**: I realized that with more time, I could have explored and implemented more projects and concepts in AI and ML. I am committed to improving my time management skills to maximize my learning opportunities.
+
 ## Goals
 My primary goal is to gain a comprehensive understanding of AI and ML technologies and their applications. I aspire to contribute to innovative projects that leverage these technologies to solve real-world problems. I am committed to continuous learning and growth in this rapidly evolving field.
 

@@ -1,21 +1,16 @@
-# Chat Package Approach
+# Camera Output Pipeline
 
-## Approach
-In this package, my goal was to enable two users, Jolyne and Joestar, to chat with each other using a single ROS node and topic. I aimed to create a simple yet effective communication system that would allow for back-and-forth messaging.
+## Overview
+This project captures images from a camera and publishes them to a ROS topic. It’s the first step in working with image processing in ROS.
 
-## Methods
-1. **ROS Node Initialization**: 
-   - I initialized a ROS node.
-   - I created a publisher to send messages.
-   - I set up a subscriber to receive messages.
+## My Approach
+1. **Set Up ROS Node**: I created a ROS node called `camera_edge_publisher`.
+2. **Capture Images**: Used OpenCV to access the camera and capture images.
+3. **Publish Images**: Published the captured images to a ROS topic named `camera/edge_image`.
 
-2. **Callback Function**: 
-   - I implemented a callback function that processes incoming messages and generates a response.
-   - The response is published back to the same topic, allowing for a straightforward chat interaction.
+## Challenges Faced
+- **Time Management**: I spent a lot of time getting Ubuntu and ROS installed. It took longer than expected due to some difficulties with the installation process.
+- **Camera Access**:I had trouble accessing the camera, 
 
-3. **Logging**: 
-   - I used `rospy.loginfo` to log messages for debugging and monitoring purposes.
 
-## Problems Faced
-- **Message Handling**: I initially faced challenges with message formatting and ensuring that responses were correctly structured.
-- **Testing**: Testing the chat functionality required running multiple instances of the node, which was somewhat cumbersome and time-consuming.
+
